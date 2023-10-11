@@ -46,6 +46,38 @@
 .fonSiz1_5rem{
     font-size: 1.5rem;
 }
+
+.jusConCen{
+    justify-content: center;
+}
+
+.marRig1_5rem{
+    margin-right: 1.5rem;
+}
+
+.pad1rem{
+    padding: 1rem;
+}
+
+.marTop2rem{
+    margin-top: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.marTop0_5rem{
+    margin-top: 0.5rem;
+}
+
+.colGre{
+    color: rgba(163,163,163,255);
+}
+
+.texAliCen{
+    text-align: center;
+}
 /* Container */
 body > div{
     height: 100vh;
@@ -95,7 +127,46 @@ nav > div:last-child{
 main{
     height: 100%;
     width: 85%;
-    background-color: blue;
+    background-color: rgba(19,24,32,255);
+}
+
+#upgrade{
+    background-color: rgba(8,11,18,255);
+    padding: 1rem;
+    justify-content: flex-end;
+}
+
+#btn{
+    padding: 0.5rem 2rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+#filters{
+    color: rgba(163,163,163,255);
+}
+
+#recentlyPlayedContainer{
+    width: 100%;
+    justify-content: space-between;
+}
+
+#recentlyPlayedContainer > div{
+    width: 15%;
+}
+
+main > div:last-child{
+    overflow: auto;
+}
+
+.imageContainer{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.imageContainer > img{
+    width: 100%;
+    display: block;
 }
 /* Footer */
 footer{

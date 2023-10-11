@@ -86,6 +86,11 @@ h2{
 .marTop3rem{
     margin-top: 3rem;
 }
+
+.borRad50{
+    border-radius: 50%;
+    overflow: hidden;
+}
 /* Container */
 body > div{
     height: 100vh;

@@ -78,6 +78,14 @@ h2{
 .texAliCen{
     text-align: center;
 }
+
+.marRig2{
+    margin-right: 2%;
+}
+
+.marTop3rem{
+    margin-top: 3rem;
+}
 /* Container */
 body > div{
     height: 100vh;
@@ -132,8 +140,10 @@ main{
 
 #upgrade{
     background-color: rgba(8,11,18,255);
-    padding: 1rem;
+    padding: 0 1rem;
     justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
 }
 
 #btn{
@@ -148,7 +158,6 @@ main{
 
 #recentlyPlayedContainer{
     width: 100%;
-    justify-content: space-between;
 }
 
 #recentlyPlayedContainer > div{
@@ -156,6 +165,7 @@ main{
 }
 
 main > div:last-child{
+    height: calc(100% - 10vh);
     overflow: auto;
 }
 

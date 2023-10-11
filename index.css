@@ -3,30 +3,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.marTop1rem{
+    margin-top: 1rem;
+}
+
+.padOri1rem{
+    padding: 0 1rem;
+}
+
+.colGreSel{
+    color: rgba(210,210,210,255);
+}
+
+.borLef3px{
+    border-left: 3px solid transparent;
+}
+
+.padLi{
+    padding: 0.3rem 1rem;
+}
+
+.colWhi{
+    color: white;
+}
+
+.verAliMid{
+    vertical-align: middle;
+}
+
+.padVer0_5rem{
+    padding: 0.5rem 0;
+}
+
+.fonSiz1_5rem{
+    font-size: 1.5rem;
 }
 /* Container */
 body > div{
     height: 100vh;
     width: 100%;
-    background-color: red;
 }
 /* Parte superiore */
 #superior{
     height: 85vh;
-    background-color: blue;
-    display: flex;
 }
 /* Navbar */
 nav{
     height: 100%;
     width: 15%;
-    background-color: red;
+    background-color: black;
+    color: rgba(163,163,163,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 70%;
+}
+
+#home{
+    border-left: 3px solid rgba(173,255,47,255);
+}
+
+#plus{
+    font-size: 2rem;
+}
+
+#playlistContainer{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: auto;
+}
+
+nav > div:last-child{
+    padding: 1em;
+}
+
+#user{
+    border-top: 1px solid rgba(163,163,163,255);
 }
 /* Main */
 main{
     height: 100%;
     width: 85%;
-    background-color: yellow;
+    background-color: blue;
 }
 /* Footer */
 footer{

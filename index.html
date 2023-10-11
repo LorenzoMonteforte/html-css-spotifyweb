@@ -5,14 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- Container -->
     <div>
         <!-- Parte superiore -->
-        <div id="superior">
+        <div id="superior" class="flex">
             <!-- Navbar -->
-            <nav></nav>
+            <nav>
+                <div>
+                    <img class="marTop1rem padOri1rem borLef3px" src="spotify/spotify/img/logo.svg" alt="logo">
+                    <ul class="marTop1rem">
+                        <li id="home" class="padLi colGreSel borLef3px">
+                            <strong>
+                                <i class="fa-solid fa-house"></i>
+                                Home
+                            </strong>
+                        </li>
+                        <li class="padLi borLef3px">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Cerca
+                        </li>
+                        <li class="padLi borLef3px">
+                            <i class="fa-solid fa-heart"></i>
+                            La tua libreria
+                        </li>
+                    </ul>
+                    <div id="playlistContainer" class="marTop1rem">
+                        <h5 class="padOri1rem borLef3px colWhi">PLAYLIST</h5>
+                        <ul>
+                            <li class="padLi borLef3px">
+                                <i id="plus" class="fa-solid fa-square-plus verAliMid"></i>
+                                <span class="verAliMid">Crea Playlist</span>
+                            </li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">Nome Playlist</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="borLef3px padVer0_5rem">
+                        <i class="fa-regular fa-circle-down"></i>
+                        Installa app
+                    </div>
+                    <div id="user" class="padVer0_5rem borLef3px colGreSel">
+                        <strong>
+                            <i class="fa-solid fa-circle-user fonSiz1_5rem"></i>
+                            <span class="fonSiz1_5rem">John Doe</span>
+                        </strong>
+                    </div>
+                </div>
+            </nav>
             <!-- Main -->
             <main></main>
         </div>

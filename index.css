@@ -124,6 +124,10 @@ h2{
 .jusConEnd{
     justify-content: flex-end;
 }
+
+.pad0_5rem{
+    padding: 0.5rem;
+}
 /* Container */
 body > div{
     height: 100vh;
@@ -131,7 +135,7 @@ body > div{
 }
 /* Parte superiore */
 #superior{
-    height: 85vh;
+    height: calc(100vh - 100px);
 }
 /* Navbar */
 nav{
@@ -139,6 +143,13 @@ nav{
     width: 15%;
     background-color: black;
     color: rgba(163,163,163,255);
+    overflow: auto;
+    min-width: 204.89px;
+}
+
+#navbar1{
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -162,12 +173,28 @@ nav img{
     overflow: auto;
 }
 
-nav > div:last-child{
-    padding: 1em;
+#navbar1 > div:last-child{
+    padding: 1rem;
 }
 
 #user{
     border-top: 1px solid rgba(163,163,163,255);
+}
+
+#navbar2 img{
+    width: 100%;
+}
+
+.iconContainer{
+    width: 100%;
+}
+
+#navbar2{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    display: none;
 }
 /* Main */
 main{
@@ -218,7 +245,7 @@ main > div:last-child{
 }
 /* Footer */
 footer{
-    height: 15vh;
+    height: 100px;
     background-color: rgba(40,40,40,255);
 }
 

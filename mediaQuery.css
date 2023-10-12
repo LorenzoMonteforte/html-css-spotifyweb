@@ -1,0 +1,146 @@
+@media only screen and (max-width: 991px){
+    #filters > ul{
+        flex-wrap: wrap;
+    }
+
+    main > div:last-child{
+        padding-top: 0;
+    }
+    
+    #filters > ul > li{
+        margin-top: 1rem;
+    }
+
+    #recentlyPlayedContainer{
+        flex-wrap: wrap;
+    }
+
+    #recentlyPlayedContainer > div{
+        width: 23.5%;
+    }
+
+    #recentlyPlayedContainer > div:nth-child(4){
+        margin-right: 0;
+    }
+
+    #recentlyPlayedContainer > div:nth-child(1n + 5){
+        margin-top: 1rem;
+    }
+
+    footer > div:first-child > div:nth-child(2){
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 795px){
+    footer > div:first-child > div{
+        margin-right: 0;
+    }
+
+    footer > div:first-child > div:nth-child(2){
+        margin-right: 0;
+    }
+
+    footer > div:first-child{
+        justify-content: space-between;
+    }
+
+    footer > div:first-child > div:last-child{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer > div:first-child > div:last-child > i:last-child{
+        margin-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 599px){
+    #recentlyPlayedContainer > div{
+        width: 49%;
+    }
+
+    #recentlyPlayedContainer > div:nth-child(2n + 2){
+        margin-right: 0;
+    }
+
+    #recentlyPlayedContainer > div:nth-child(1n + 3){
+        margin-top: 1rem;
+    }
+
+    nav{
+        min-width: auto;
+        width: 40%;
+    }
+    
+    main{
+        width: 60%;
+    }
+
+    footer > div:first-child{
+        padding: 0;
+    }
+
+    #smallImageContainer{
+        height: 30%;
+    }
+
+    footer > div:first-child h5,
+    footer > div:first-child i{
+        font-size: 0.8rem;
+    }
+
+    footer > div:first-child > div:last-child > i:first-child{
+        margin-right: 0;
+    }
+
+    #central > div:last-child{
+        justify-content: space-between;
+    }
+
+    #bar{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 449px){
+    #navbar1{
+        display: none;
+    }
+
+    nav{
+        width: 10%;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    #navbar2{
+        display: flex;
+    }
+
+    #central > div:last-child{
+        justify-content: space-around;
+    }
+
+    #bar{
+        width: 50%;
+    }
+
+    .fonSiz1mq{
+        font-size: 1rem;
+    }
+
+    .fonSiz2mq{
+        font-size: 2rem
+    }
+
+    .marRig0_5mq{
+        margin-right: 0.5rem;
+    }
+
+    .marRig1mq{
+        margin-right: 1rem;
+    }
+}

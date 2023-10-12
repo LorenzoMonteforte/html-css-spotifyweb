@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaQuery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -14,54 +15,80 @@
         <div id="superior" class="flex">
             <!-- Navbar -->
             <nav>
-                <div>
-                    <img class="marTop1rem padOri1rem borLef3px" src="spotify/spotify/img/logo.svg" alt="logo">
-                    <ul class="marTop1rem">
-                        <li id="home" class="padLi colGreSel borLef3px">
-                            <strong>
-                                <i class="fa-solid fa-house"></i>
-                                Home
-                            </strong>
-                        </li>
-                        <li class="padLi borLef3px">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            Cerca
-                        </li>
-                        <li class="padLi borLef3px">
-                            <i class="fa-solid fa-heart"></i>
-                            La tua libreria
-                        </li>
-                    </ul>
-                    <div id="playlistContainer" class="marTop1rem">
-                        <h5 class="padOri1rem borLef3px colWhi">PLAYLIST</h5>
-                        <ul>
-                            <li class="padLi borLef3px">
-                                <i id="plus" class="fa-solid fa-square-plus verAliMid"></i>
-                                <span class="verAliMid">Crea Playlist</span>
+                <div id="navbar1">
+                    <div>
+                        <img class="marTop1rem padOri1rem borLef3px" src="spotify/spotify/img/logo.svg" alt="logo">
+                        <ul class="marTop1rem">
+                            <li id="home" class="padLi colGreSel borLef3px">
+                                <strong>
+                                    <i class="fa-solid fa-house"></i>
+                                    Home
+                                </strong>
                             </li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
-                            <li class="padLi borLef3px">Nome Playlist</li>
+                            <li class="padLi borLef3px">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                Cerca
+                            </li>
+                            <li class="padLi borLef3px">
+                                <i class="fa-solid fa-heart"></i>
+                                La tua libreria
+                            </li>
                         </ul>
+                        <div id="playlistContainer" class="marTop1rem">
+                            <h5 class="padOri1rem borLef3px colWhi">PLAYLIST</h5>
+                            <ul>
+                                <li class="padLi borLef3px">
+                                    <i id="plus" class="fa-solid fa-square-plus verAliMid"></i>
+                                    <span class="verAliMid">Crea Playlist</span>
+                                </li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                                <li class="padLi borLef3px">Nome Playlist</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="borLef3px padVer0_5rem">
+                            <i class="fa-regular fa-circle-down"></i>
+                            Installa app
+                        </div>
+                        <div id="user" class="padVer0_5rem borLef3px colGreSel">
+                            <strong>
+                                <i class="fa-solid fa-circle-user fonSiz1_5rem"></i>
+                                <span class="fonSiz1_5rem">John Doe</span>
+                            </strong>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="borLef3px padVer0_5rem">
-                        <i class="fa-regular fa-circle-down"></i>
-                        Installa app
+                <div id="navbar2" class="pad0_5rem">
+                    <div>
+                        <img src="spotify/spotify/img/logo-small.svg" alt="logo">
+                        <div class="marTop1rem iconContainer texAliCen">
+                            <i class="fa-solid fa-house fonSiz1_5rem"></i>
+                        </div>
+                        <div class="marTop1rem iconContainer texAliCen">
+                            <i class="fa-solid fa-magnifying-glass fonSiz1_5rem"></i>
+                        </div>
+                        <div class="marTop1rem iconContainer texAliCen">
+                            <i class="fa-solid fa-heart fonSiz1_5rem"></i>
+                        </div>
                     </div>
-                    <div id="user" class="padVer0_5rem borLef3px colGreSel">
-                        <strong>
-                            <i class="fa-solid fa-circle-user fonSiz1_5rem"></i>
-                            <span class="fonSiz1_5rem">John Doe</span>
-                        </strong>
+                    <div>
+                        <div>
+                            <div class="iconContainer texAliCen">
+                                <i class="fa-regular fa-circle-down"></i>
+                            </div>
+                            <div class="iconContainer texAliCen marTop1rem">
+                                <i class="fa-solid fa-circle-user fonSiz1_5rem"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -186,11 +213,11 @@
             </div>
             <div id="central" class="flex jusConCen">
                 <div class="flex jusConCen colWhi padVer0_5rem">
-                    <i class="fa-solid fa-shuffle marRig1rem fonSiz1_5rem"></i>
-                    <i class="fa-solid fa-backward-step marRig1_5rem fonSiz1_5rem"></i>
-                    <i class="fa-regular fa-circle-play marRig1_5rem fonSiz3rem"></i>
-                    <i class="fa-solid fa-forward-step marRig1rem fonSiz1_5rem"></i>
-                    <i class="fa-solid fa-rotate-right fonSiz1_5rem"></i>
+                    <i class="fa-solid fa-shuffle marRig1rem fonSiz1_5rem fonSiz1mq marRig0_5mq"></i>
+                    <i class="fa-solid fa-backward-step marRig1_5rem fonSiz1_5rem fonSiz1mq marRig1mq"></i>
+                    <i class="fa-regular fa-circle-play marRig1_5rem fonSiz3rem fonSiz2mq marRig1mq"></i>
+                    <i class="fa-solid fa-forward-step marRig1rem fonSiz1_5rem fonSiz1mq marRig0_5mq"></i>
+                    <i class="fa-solid fa-rotate-right fonSiz1_5rem fonSiz1mq"></i>
                 </div>
                 <div class="flex padVer0_5rem">
                     <div class="minutes colWhi">
@@ -209,4 +236,3 @@
         </footer>
     </div>
 </body>
-</html>

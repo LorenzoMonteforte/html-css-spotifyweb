@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-size: 13px;
     font-family: sans-serif;
+    list-style-type: none
 }
 
 .flex{
@@ -90,6 +91,38 @@ h2{
 .borRad50{
     border-radius: 50%;
     overflow: hidden;
+}
+
+.marRig0_5rem{
+    margin-right: 0.5rem;
+}
+
+.fonSiz0_8rem{
+    font-size: 0.8rem;
+}
+
+.marRig3rem{
+    margin-right: 3rem;
+}
+
+.marRig1rem{
+    margin-right: 1rem;
+}
+
+.fonSiz2rem{
+    font-size: 2rem;
+}
+
+.padOri0_5rem{
+    padding: 0 0.5rem;
+}
+
+.fonSiz3rem{
+    font-size: 3rem;
+}
+
+.jusConEnd{
+    justify-content: flex-end;
 }
 /* Container */
 body > div{
@@ -186,5 +219,65 @@ main > div:last-child{
 /* Footer */
 footer{
     height: 15vh;
-    background-color: green;
+    background-color: rgba(40,40,40,255);
+}
+
+footer > div{
+    height: 100%;
+}
+
+.lateral{
+    width: 25%;
+}
+
+#central{
+    width: 50%;
+    flex-direction: column;
+}
+
+#smallImageContainer{
+    height: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+footer > div:first-child{
+    align-items: center;
+}
+
+#smallImageContainer > img{
+    height: 100%;
+}
+
+#central > div:first-child{
+    width: 100%;
+    align-items: center;
+}
+
+#central > div:last-child{
+    width: 100%;
+}
+
+.minutes{
+    width: 10%;
+}
+
+#bar{
+    width: 80%;
+    align-items: center;
+}
+
+#bar > div:first-child{
+    height: 50%;
+    width: 8%;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#bar > div:last-child{
+    height: 50%;
+    width: 92%;
+    background-color: rgba(163,163,163,255);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }

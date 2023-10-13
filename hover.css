@@ -1,0 +1,23 @@
+.hovWhi:hover{
+    color: white;
+}
+
+.scale:hover{
+    scale: 1.05;
+}
+
+#recentlyPlayedContainer .pointer:hover .imageContainer > img{
+    opacity: 0.5;
+}
+
+#recentlyPlayedContainer .pointer:hover .play{
+    display: flex;
+}
+
+.hovRed:hover {
+    color: red;
+}
+
+.scale1_2:hover{
+    scale: 1.2;
+}

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="spotify/spotify/img/favicon.ico">
+    <title>Spotify</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mediaQuery.css">
     <link rel="stylesheet" href="hover.css">
@@ -337,16 +338,20 @@
                     <div class="minutes colWhi">
                         0:25
                     </div>
-                    <div id="bar" class="flex pointer">
-                        <div></div>
-                        <div></div>
+                    <div id="bar" class="flex" >
+                        <input id="playBar" class="bar pointer" type="range">
                     </div>
                     <div class="minutes flex jusConEnd colWhi">
                         4:35
                     </div>
                 </div>
             </div>
-            <div class="lateral"></div>
+            <div class="lateral flex jusConEnd padOri0_5rem colWhi">
+                    <i class="fa-solid fa-list marRig0_5rem"></i>
+                    <i class="fa-solid fa-display marRig0_5rem"></i>
+                    <i class="fa-solid fa-volume-high marRig0_5rem"></i>
+                    <input id="soundBar" class="bar pointer" type="range">
+            </div>
         </footer>
     </div>
 </body>

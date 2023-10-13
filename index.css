@@ -145,6 +145,10 @@ a{
     position: relative;
 }
 /* Container */
+body{
+    min-width: 265px;
+}
+
 body > div{
     height: 100vh;
     width: 100%;
@@ -330,18 +334,41 @@ footer > div:first-child{
     align-items: center;
 }
 
-#bar > div:first-child{
-    height: 50%;
-    width: 8%;
-    background-color: white;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+#playBar{
+    width: 100%;
 }
 
-#bar > div:last-child{
-    height: 50%;
-    width: 92%;
-    background-color: rgba(163,163,163,255);
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+footer > div:last-child{
+    align-items: center;
+}
+
+#soundBar{
+    width: 25%;
+}
+
+.bar{
+    -webkit-appearance: none;
+    height: 3px;
+    background: rgba(163,163,163,255);
+    overflow: hidden;
+}
+
+.bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: -500px 0 0 500px white;
+}
+
+.bar::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: -500px 0 0 500px white;
 }

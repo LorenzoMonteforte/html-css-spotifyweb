@@ -96,6 +96,10 @@
     #bar{
         width: 65%;
     }
+
+    #soundBar{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 449px){
@@ -138,5 +142,13 @@
 
     .marRig1mq{
         margin-right: 1rem;
+    }
+
+    .minutes{
+        display: none;
+    }
+
+    #central > div:last-child {
+        justify-content: center;
     }
 }

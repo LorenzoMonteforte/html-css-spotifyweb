@@ -349,26 +349,26 @@ footer > div:last-child{
 .bar{
     -webkit-appearance: none;
     height: 3px;
-    background: rgba(163,163,163,255);
+    background-color: rgba(163,163,163,255);
     overflow: hidden;
 }
-
-.bar::-webkit-slider-thumb {
+/* Chrome */
+.bar::-webkit-slider-thumb{
     -webkit-appearance: none;
-    appearance: none;
-    width: 10px;
     height: 10px;
-    background: white;
-    cursor: pointer;
+    width: 10px;
+    background-color: rgba(173,255,47,255);
     border-radius: 50%;
     box-shadow: -500px 0 0 500px white;
+    cursor: pointer;
 }
-
-.bar::-moz-range-thumb {
-    width: 10px;
+/* Firefox */
+.bar::-moz-range-thumb{
     height: 10px;
-    background: white;
-    cursor: pointer;
+    width: 10px;
+    background-color: rgba(173,255,47,255);
     border-radius: 50%;
     box-shadow: -500px 0 0 500px white;
+    cursor: pointer;
+    border: none;
 }
